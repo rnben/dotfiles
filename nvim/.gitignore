@@ -1,0 +1,6 @@
+plugin/
+
+.DS_Store
+.netrwhist
+.luarc.json
+.stylua.toml
