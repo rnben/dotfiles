@@ -26,6 +26,7 @@ map('n', '<leader>f', '<cmd>Format<CR>', opt)
 
 if vim.g.vscode then
     vim.cmd([[
+      set mouse-=a
       nnoremap zM :call VSCodeNotify('editor.foldAll')<CR>
       nnoremap zR :call VSCodeNotify('editor.unfoldAll')<CR>
       nnoremap zc :call VSCodeNotify('editor.fold')<CR>
